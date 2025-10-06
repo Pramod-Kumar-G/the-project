@@ -1,0 +1,8 @@
+apiVersion:
+kind: Kustomization
+resources:
+  - manifests/configmap.yaml
+  - manifests/persistentvolumeclaim.yaml
+  - manifests/deployment.yaml
+  - manifests/service.yaml
+  - manifests/ingress.yaml
