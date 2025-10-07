@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  namespace: project
+  # namespace: project
   name: the-project
 spec:
   replicas: 1
