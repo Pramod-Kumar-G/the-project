@@ -22,10 +22,10 @@ spec:
           image: buddy00/the-project:0.5.0
           resources:
             requests:
-              memory: "64mi"
+              memory: "64Mi"
               cpu: "100m"
             limits:
-              memory: "128mi"
+              memory: "128Mi"
               cpu: "250m"
           volumeMounts:
             - name: shared-image
