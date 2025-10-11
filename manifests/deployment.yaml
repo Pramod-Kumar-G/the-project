@@ -20,6 +20,13 @@ spec:
       containers:
         - name: the-project
           image: buddy00/the-project:0.5.0
+          resources:
+            requests:
+              memory: "64mi"
+              cpu: "100m"
+            limits:
+              memory: "128mi"
+              cpu: "250m"
           volumeMounts:
             - name: shared-image
               mountPath: /usr/src/app/files
